@@ -10,6 +10,11 @@ async def main():
     await asyncio.sleep(5)
     print("I am still a person")
     
+async def car():
+    print("I am a person")
+    await asyncio.sleep(5)
+    print("I am still a person")
+    
 
 
     
